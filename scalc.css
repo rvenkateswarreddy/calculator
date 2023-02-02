@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: aqua;
+}
+.collect {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+/* #n1,
+#n2,
+#n3,
+#n4,
+#n5,
+#n7,
+#n8,
+#n9,
+#n10,
+#n11 {
+  margin-left: 20px;
+  padding: 20px;
+  font-size: large;
+} */
+#n6 {
+  margin-top: 30px;
+  padding: 20px;
+}
+label {
+  color: rgb(233, 63, 16);
+  font-size: 30px;
+  text-transform: capitalize;
+}
+input {
+  color: darkgoldenrod;
+  padding: 10px;
+}
+h1 {
+  font-size: 40px;
+  color: rgb(5, 19, 214);
+}
+button:hover {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+button {
+  transition: all 0.5s ease-in-out;
+  margin-left: 20px;
+  padding: 20px;
+  font-size: large;
+}
